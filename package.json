@@ -1,0 +1,30 @@
+{
+  "name": "ars-idm-nav-plugin",
+  "version": "0.1.0",
+  "description": "Package for tracking changes",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvollset/ars-idm-nav-plugin.git"
+  },
+  "author": "mvollset@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mvollset/ars-idm-nav-plugin/issues"
+  },
+  "homepage": "https://github.com/mvollset/ars-idm-nav-plugin#readme",
+  "devDependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "chai": "^4.3.4",
+    "eslint": "^8.2.0",
+    "mocha": "^9.1.3",
+    "nyc": "^15.1.0"
+  },
+  "dependencies": {
+    "@hapi/boom": "^9.1.4",
+    "@hapi/joi": "^17.1.1"
+  }
+}
